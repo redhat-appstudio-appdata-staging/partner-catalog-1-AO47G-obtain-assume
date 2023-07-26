@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-gqyt
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads-stage/gtrivedi-tenant/partner-catalog-1/partner-catalog-gqyt@sha256:6d222b0131cefefffa563424ab458b940fe986db9e38c4ebe06fa781499c3ecf
         name: my-java-springboot
         ports:
         - containerPort: 8081
