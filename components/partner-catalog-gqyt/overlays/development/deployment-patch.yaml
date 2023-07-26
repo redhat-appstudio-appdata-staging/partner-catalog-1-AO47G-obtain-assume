@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-gqyt
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/gtrivedi-tenant/partner-catalog-1/partner-catalog-gqyt@sha256:6d222b0131cefefffa563424ab458b940fe986db9e38c4ebe06fa781499c3ecf
+        name: my-java-springboot
+        resources: {}
+status: {}
